@@ -1,5 +1,5 @@
 node {
-    def server = Artifactory.server('ktrujillo.jfrog.io')
+    def server = Artifactory.server('ktrujillo')
     def rtGradle = Artifactory.newGradleBuild()
     def buildInfo = Artifactory.newBuildInfo()
     stage 'Build'
